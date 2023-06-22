@@ -12,7 +12,8 @@ Great thanks for ZhangSu's code and document
 - `watch -n 10 ./watch_jobs.sh` to check the status of all the jobs
 - `./cancel_all_jobs.sh` to cancel all the jobs
 
-### Example of batch submission of jobs with different arguments on one GPU node
+### Example 
+batch submission of jobs with different arguments on one GPU node
 ```python
 import os
 for dataset in ["Dataset1", "Dataset2"]:
