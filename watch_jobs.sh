@@ -1,4 +1,4 @@
-# qstat -E | grep pbs | awk '{print $1}' | xargs -I {} qdel {}
+#!/bin/sh
 R=$(qstat -E | grep R | wc -l)
 Q=$(qstat -E | grep Q | wc -l)
 A=$(qstat -E | grep pbs | wc -l)
