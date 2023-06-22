@@ -1,10 +1,10 @@
 ## Tools for using nscc
 
-Great thanks for ZhangSu's code and document
+Greatly thank ZhangSu's code and tutorial for the detailed instruction on NSCC.
 
 ### Preparation
 - change `PROJECT_CODE` and `TASK_NAME` in assets/g*.pbs to your own
-- Chaneg the location of sif and arguments in your main.py accordingly
+- Change the location of sif and arguments in your main.py accordingly
 - Refer to `nscc_ZhangSu.md` for more details
 
 ### Usage
